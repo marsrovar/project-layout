@@ -1,7 +1,7 @@
 # project-layout
 Go Project Layout
 
-目錄說明
+目錄說明 (目錄之間以深度為主不平行可以避免 import cycle 的問題)
 ```
 .
 ├── initialize  <- 初始化集中地 (手動初始的地方，為了能控制初始的時機
